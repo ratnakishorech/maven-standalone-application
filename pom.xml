@@ -4,7 +4,7 @@
 
 	<groupId>com.mt</groupId>
 	<artifactId>maven-stanalone-application</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>2.0-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
 	<name>maven-stanalone-application</name>
@@ -32,6 +32,13 @@
 		</dependency>
 
 	</dependencies>
+<distributionManagement>
+    <repository>
+        <id>central</id>
+        <name>953f11ddb8a0-releases</name>
+        <url>http://ec2-3-89-209-52.compute-1.amazonaws.com:8081/artifactory/libs-release-local</url>
+    </repository>
+</distributionManagement>
 
 	<!-- Committing and updating changes through Maven, by using below mvn command. 
 		For Commiting mvn -Dmessage="Updated using maven" scm:checkin For updating 
