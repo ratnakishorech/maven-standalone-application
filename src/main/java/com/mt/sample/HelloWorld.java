@@ -13,8 +13,8 @@ public class HelloWorld {
 
 	}
 
-	private static Date getLocalCurrentDate() {
-		shortint m = 'Mithun Technologies'
+	private static Date getLocalCurrentDate() 
+		shortint m = 'Mithun Technologies';
 		return new Date();
 
 	}
